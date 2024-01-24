@@ -1,11 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockeys</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <!-- font -->
+      <style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+  *{
+    font-family: 'Manrope', sans-serif;
+  }
+</style>
+
+ 
+
+  </head>
+  <body class= " pl-36 pr-36 pb-24"  >
+    <header >
+      <nav></nav>
+
+    </header>
+
+    <main class= "pl-36 pr-36 pb-24">
+         <!-- banner image -->
+      <section  >
+        <div class="carousel w-full h-96  ">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img
+              src="Images/1.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="Images/2.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="Images/3.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        
+          </div>
+        </div>
+      </section>
+
+      <!-- professional hockey club -->
+      <section class="pt-10" >
+        <div  class="  text-center  pb-12"> 
+            <hr>
+            <h2 class="text-3xl font-extrabold  ">Professional Hockey Club</h2>
+            <p>2024 CCM MITE Madness Supertacks Champions. </p>
+            <hr>
+        </div>
+        <div class="flex justify-between text-center pb-24 "> 
+             <div class=" justify-center items-center ">
+                 <div class="radial-progress  text-error " style="--value:87;" role="progressbar">87%</div>
+                 <h3 class="text-lg">Medicare Facility</h3>
+                 <p>we have experienced & lead Therapist .</p>
+             </div>
+           
+             <div>
+                 <div class="radial-progress text-accent " style="--value:95;" role="progressbar">95%</div>
+                  <h3 class="text-lg">Indoor Facility</h3>
+                 <p>we have indoor activities.</p>
+             </div>
+           
+             <div>
+                <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+                 <h3 class="text-lg">Gym Facility</h3>
+                 <p> We provide dozens of Equipments.</p>
+            </div>
+           
+            <div>
+                <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
+                 <h3>Prayer Facility</h3>
+                 <p>cCommon Prayer room available .</p>
+            </div>
+
+            </div>
+      </section>
+
+      <!-- program section -->
+      <section >
+        
+           <div class="text-center pb-6">
+              <h2 class="text-3xl font-extrabold">Program Section</h2>
+            <p class="text-sm mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed modi quis quos delectus illum praesentium.</p>
+            
+          </div>
+
+          <div class="">
+             <div class="w-1/2 h-64 bg-black rounded-xl bg-local text-white flex items-center pl-10 bg-cover lg:w-1/2 sm:w-80 "
+                    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgba(29, 29, 29, 0.37)),url('Images/2.png');">
+            <div>
+                     <div>
+                        <h1 class="text-xl font-bold">Junior Program</h1>
+                        <p class="text-xs font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            <br>enim sagittis turpis in magna. Id et sed euismod natoque amet
+                            <br>nunc morbi nulla. Tortor congue sed et in.
+                        </p>
+
+                        <button class="btn glass mt-3 bg-red-600 h-8 text-white">Register now!</button>
+            </div>
+         </div>
+
+
+
+           <div class=" w-1/2  h-64 bg-black rounded-xl bg-local text-white flex items-center pl-10  bg-cover lg:w-1/2 sm:w-80"
+                    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgba(29, 29, 29, 0.37)),url('Images/3.png');">
+                    <div>
+                        <h1 class="text-xl font-bold">Teenager Program</h1>
+                        <p class="text-xs font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            <br>enim sagittis turpis in magna. Id et sed euismod natoque amet
+                            <br>nunc morbi nulla. Tortor congue sed et in.
+                        </p>
+
+                        <button class="btn glass mt-3 bg-red-600 h-8 text-white">Register now!</button>
+                    </div>
+                </div>
+          </div>
+      
+   
+          
+       
+
+         <div class=" h-96 bg-black rounded-xl bg-local text-white flex  pl-10 mt-5 bg-no-repeat bg-cover lg:w-full sm:w-80  "
+                style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgba(29, 29, 29, 0.37)),url('Images/4.png');">
+                <!---big card-1-->
+                <div class="pt-44">
+                    <h1 class="text-xl font-bold">Professional Program</h1>
+                    <p class="text-xs font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        <br>enim sagittis turpis in magna. Id et sed euismod natoque amet
+                        <br>nunc morbi nulla. Tortor congue sed et in.
+                    </p>
+                    <button class="btn glass mt-3 bg-red-600 h-8 text-white">Register now!</button>
+                </div>
+            </div>
+        
+
+        
+      
+      </section>
+
+      <!-- our new product section -->
+      <section class="pt-10" >  
+        <div class="text-center pb-6">
+           <h2 class="text-3xl font-extrabold ">Our New Products</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, doloremque.</p> 
+        </div>
+                                                                                                                                                                                                                                                                                                                                                                 
+        <!-- 1st row -->
+        <div class="flex justify-between pb-6 ">
+            <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img src="Images/5.png" alt="Movie"/></figure>
+            <div class="card-body">
+              <div class="flex justify-between  ">
+                <img src="Images/Frame.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (2).png" alt="">
+                <p>200</p>
+              </div>
+           <h2 class="card-title">World Cup Flags Football</h2>
+       <p>Click the button to watch on Jetflix app..</p>
+       <div class="flex  ">
+         <p class="text-error">Price-$22.00</p>
+         <div class="flex">
+          <img src="Images/trolly.png" alt="">
+          <p>Delivery Fee-Free</p>
+         </div>
+       </div>
     
-</body>
+       <div class="card-actions justify-end">
+      
+      </div>
+      </div>
+      </div>
+            <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img src="Images/6.png" alt="Movie"/></figure>
+            <div class="card-body">
+               <div class="flex justify-between  ">
+                <img src="Images/Frame.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (2).png" alt="">
+                <p>200</p>
+              </div>
+           <h2 class="card-title">World Cup Flags Football</h2>
+       <p>Click the button to watch on Jetflix app.</p>
+        <div class="flex  ">
+         <p class="text-error">Price-$22.00</p>
+         <div class="flex">
+          <img src="Images/trolly.png" alt="">
+          <p>Delivery Fee-Free</p>
+         </div>
+       </div>
+       <div class="card-actions justify-end">
+     
+      </div>
+      </div>
+      </div>
+    </div>
+        <!-- 2nd row -->
+        <div class="flex justify-between pb-6">
+            <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img src="Images/7.png" alt="Movie"/></figure>
+            <div class="card-body">
+               <div class="flex justify-between  ">
+                <img src="Images/Frame.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (2).png" alt="">
+                <p>200</p>
+              </div>
+           <h2 class="card-title">Cap For Hockeys</h2>
+       <p>Click the button to watch on Jetflix app.</p>
+        <div class="flex  ">
+         <p class="text-error">Price-$22.00</p>
+         <div class="flex">
+          <img src="Images/trolly.png" alt="">
+          <p>Delivery Fee-Free</p>
+         </div>
+       </div>
+       <div class="card-actions justify-end">
+      
+      </div>
+      </div>
+      </div>
+            <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img src="Images/8.png" alt="Movie"/></figure>
+            <div class="card-body">
+               <div class="flex justify-between  ">
+                <img src="Images/Frame.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (2).png" alt="">
+                <p>200</p>
+              </div>
+           <h2 class="card-title">World Cup Flags Football</h2>
+       <p>Click the button to watch on Jetflix app.</p>
+        <div class="flex  ">
+         <p class="text-error">Price-$22.00</p>
+         <div class="flex">
+          <img src="Images/trolly.png" alt="">
+          <p>Delivery Fee-Free</p>
+         </div>
+       </div>
+       <div class="card-actions justify-end">
+     
+      </div>
+      </div>
+      </div>
+    </div>
+        <!-- 3rd row -->
+        <div class="flex justify-between">
+            <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img src="Images/9.png" alt="Movie"/></figure>
+            <div class="card-body">
+               <div class="flex justify-between  ">
+                <img src="Images/Frame.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (2).png" alt="">
+                <p>200</p>
+              </div>
+           <h2 class="card-title">World Cup Flags Football </h2>
+       <p>Click the button to watch on Jetflix app.</p>
+        <div class="flex  ">
+         <p class="text-error">Price-$22.00</p>
+         <div class="flex">
+          <img src="Images/trolly.png" alt="">
+          <p>Delivery Fee-Free</p>
+         </div>
+       </div>
+       <div class="card-actions justify-end">
+     
+      </div>
+      </div>
+      </div>
+            <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img src="Images/10.png" alt="Movie"/></figure>
+            <div class="card-body">
+               <div class="flex justify-between  ">
+                <img src="Images/Frame.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (2).png" alt="">
+                <p>200</p>
+              </div>
+           <h2 class="card-title">World Cup Flags Football</h2>
+       <p>Click the button to watch on Jetflix app.</p>
+        <div class="flex  ">
+         <p class="text-error">Price-$22.00</p>
+         <div class="flex">
+          <img src="Images/trolly.png" alt="">
+          <p>Delivery Fee-Free</p>
+         </div>
+       </div>
+       <div class="card-actions justify-end">
+     
+      </div>
+      </div>
+      </div>
+    </div>
+
+
+      </section>
+
+      <!-- Get u=in touch -->
+
+      <section >
+       <div class="space-y-2 pt-10 pb-10 text-center">
+         <hr>
+        <h2 class="text-3xl font-extrabold">Get In Touch</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, aperiam.</p>
+        <hr> 
+       </div>
+
+
+       <!-- coloumns -->
+        <div class="flex ">
+          <!-- contact -->
+       <div class="flex-col space-y-4   ">
+        <div class="bg-lime-100 w-96 h-72 rounded-2xl pl-10 pt-10">
+        <img src="Images/Group 1171275317.png" alt="">
+        <p class="pt-10">Phone Number</p>
+        <h3>+880 178 569 7489</h3>
+       </div>
+       <div class="bg-amber-100  w-96 h-72 rounded-2xl pl-10 pt-10 ">
+        <img src="Images/Group 1171275318.png " alt="">
+        <p class="pt-10">Email</p>
+        <h3>hockey2024@gmail.com</h3>
+       </div>
+       <div class="bg-cyan-100  w-96 h-72 rounded-2xl pl-10 pt-10 ">
+        <img src="Images/Group 1171275321.png" alt="">
+        <p class="pt-10">Location</p>
+        <h3>152/2 Dhabnondi,Dhaka</h3>
+       </div>
+       </div>
+
+       <!-- form  -->
+       <div class="pl-10 ">
+
+        <div class="flex justify-between">
+          <div >
+           <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Your Name</label>
+
+           <input id="" name="" type="text"  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Enter your full name">
+        </div>
+        <div>
+           <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Your Email</label>
+
+           <input id="email" name="email" type="email"  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Enter your email address">
+        </div>
+        </div>
+
+        <div class="flex justify-between">
+          <div >
+           <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Subject</label>
+
+           <input id="" name="" type="text"  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Enter your subject name">
+        </div>
+        <div>
+           <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Phone Number</label>
+
+           <input id="email" name="email" type="email"  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Enter your phone number">
+        </div>
+        </div>
+      
+
+        
+          
+          
+        
+        <div>
+        <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Meassge</label>
+        <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="write yout message"></textarea>
+
+        <button class="bg-red-600 rounded-2xl text-white">Send Message</button>
+        </div>
+
+
+        </div>    
+      </section>
+
+
+
+    </main>
+
+    
+    <footer class="footer p-10  bg-neutral text-neutral-content mt-8 ">
+      <div class="   space-y-1">
+        <h2 class="text-lg font-extrabold  text-white ">Get In Touch</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, exercitationem.</p>
+        <div class="flex item-center space-x-2"><img src="Images/email.png" alt="">
+          <p>hockey2024@gmail.com</p>
+        </div>
+        <div class="flex item-center space-x-2"><img src="Images/call.png" alt="">
+          <p>+880 170 987 4589</p>
+        </div>
+      </div>
+  <nav class="pt-5">
+    <header class="footer-title">Services</header> 
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav> 
+  <nav class="pt-5">
+    <header class="footer-title">Company</header> 
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav> 
+  <nav class="pt-5">
+    <header class="footer-title">Support</header> 
+    <a class="link link-hover">Help Center</a>
+    <a class="link link-hover">FAQ</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Contact Us</a>
+  </nav>
+</footer>
+
+    
+
+  </body>
 </html>
