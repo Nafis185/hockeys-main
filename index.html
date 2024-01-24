@@ -20,15 +20,50 @@
  
 
   </head>
-  <body class= " pl-36 pr-36 pb-24"  >
-    <header >
-      <nav></nav>
+  <body >
+    <nav>
+    <header class="pl-36 pr-36 pt-16 pb-16 max-sm:pl-10 max-sm:pr-10">
+      <div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a>Item 1</a></li>
+        <li>
+          <a>Parent</a>
+          <ul class="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        <li><a>Item 3</a></li>
+      </ul>
+    </div>
+    <h1 class=" text-xl">Hockey<span class="text-red-600">'</span>s</h1>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="text-error">Home</a></li>
+      <li><a>About</a></li>
+      <li><a>Pages</a></li>
+      <li><a>Blog</a></li>
+      <li><a>Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end ">
+    <a class="btn bg-red-600 text-white">Get Ticket</a>
+  </div>
+</div>
+</nav>
+      
 
     </header>
 
-    <main class= "pl-36 pr-36 pb-24">
+    <main class= "pl-36 pr-36 pb-24 max-sm:pl-10 max-sm:pr-10">
          <!-- banner image -->
-      <section  >
+      <section class="max-sm:pl-10" >
         <div class="carousel w-full h-96  ">
           <div id="slide1" class="carousel-item relative w-full">
             <img
@@ -72,33 +107,33 @@
       </section>
 
       <!-- professional hockey club -->
-      <section class="pt-10" >
+      <section class="pt-10 max-sm:pl-10" >
         <div  class="  text-center  pb-12"> 
             <hr>
             <h2 class="text-3xl font-extrabold  ">Professional Hockey Club</h2>
-            <p>2024 CCM MITE Madness Supertacks Champions. </p>
+            <p class="max-sm:pt-4">2024 CCM MITE Madness Supertacks Champions. </p>
             <hr>
         </div>
-        <div class="flex justify-between text-center pb-24 "> 
+        <div class="flex justify-between text-center pb-24 max-sm:flex-col max-sm: "> 
              <div class=" justify-center items-center ">
                  <div class="radial-progress  text-error " style="--value:87;" role="progressbar">87%</div>
                  <h3 class="text-lg">Medicare Facility</h3>
                  <p>we have experienced & lead Therapist .</p>
              </div>
            
-             <div>
+             <div class="max-sm:pt-7">
                  <div class="radial-progress text-accent " style="--value:95;" role="progressbar">95%</div>
-                  <h3 class="text-lg">Indoor Facility</h3>
+                  <h3 class="text-lg ">Indoor Facility</h3>
                  <p>we have indoor activities.</p>
              </div>
            
-             <div>
-                <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+             <div class="max-sm:pt-7">
+                <div class="radial-progress text-warning " style="--value:90;" role="progressbar">90%</div>
                  <h3 class="text-lg">Gym Facility</h3>
                  <p> We provide dozens of Equipments.</p>
             </div>
            
-            <div>
+            <div class="max-sm:pt-7">
                 <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
                  <h3>Prayer Facility</h3>
                  <p>cCommon Prayer room available .</p>
@@ -108,25 +143,21 @@
       </section>
 
       <!-- program section -->
-      <section >
+      <section class="max-sm:pl-10">
         
-           <div class="text-center pb-6">
+           <div class="text-center pb-6 ">
               <h2 class="text-3xl font-extrabold">Program Section</h2>
-            <p class="text-sm mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed modi quis quos delectus illum praesentium.</p>
+            <p class="text-sm mt-3">Here are the upcoming program sections are given below!</p>
             
           </div>
 
-          <div class="">
-             <div class="w-1/2 h-64 bg-black rounded-xl bg-local text-white flex items-center pl-10 bg-cover lg:w-1/2 sm:w-80 "
+          <div class="flex space-x-4 max-sm:flex-col max-sm:h-72 max-sm:text-nowrap ">
+             <div class="w-1/2 h-64 bg-black rounded-xl bg-local text-white flex items-center pl-10 bg-cover lg:w-1/2 sm:w-80 max-sm:flex-col "
                     style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgba(29, 29, 29, 0.37)),url('Images/2.png');">
-            <div>
+            
                      <div>
                         <h1 class="text-xl font-bold">Junior Program</h1>
-                        <p class="text-xs font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                            <br>enim sagittis turpis in magna. Id et sed euismod natoque amet
-                            <br>nunc morbi nulla. Tortor congue sed et in.
-                        </p>
-
+                        <p class="text-xs font-normal">junior program provides opportunities <br>for players ages 16-to-20 to hone and enhance their skills and is bran<br>important part of the organization's overall efforts related to player.<br> </p>
                         <button class="btn glass mt-3 bg-red-600 h-8 text-white">Register now!</button>
             </div>
          </div>
@@ -137,9 +168,7 @@
                     style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgba(29, 29, 29, 0.37)),url('Images/3.png');">
                     <div>
                         <h1 class="text-xl font-bold">Teenager Program</h1>
-                        <p class="text-xs font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                            <br>enim sagittis turpis in magna. Id et sed euismod natoque amet
-                            <br>nunc morbi nulla. Tortor congue sed et in.
+                        <p class="text-xs font-normal">The philosophy and goal of MAHA is to provide a viable Youth Hockey Program,<br>and to help the kids involved grow and mature into better adults by participating <br>in a program that promotes team effort, sportsmanship, competition,and adult leadership.
                         </p>
 
                         <button class="btn glass mt-3 bg-red-600 h-8 text-white">Register now!</button>
@@ -156,9 +185,7 @@
                 <!---big card-1-->
                 <div class="pt-44">
                     <h1 class="text-xl font-bold">Professional Program</h1>
-                    <p class="text-xs font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                        <br>enim sagittis turpis in magna. Id et sed euismod natoque amet
-                        <br>nunc morbi nulla. Tortor congue sed et in.
+                    <p class="text-xs font-normal">a professional hockey player. However, there are multiple pathways to the <br> professional level. Read on to learn about the most common pathways to the NHL.
                     </p>
                     <button class="btn glass mt-3 bg-red-600 h-8 text-white">Register now!</button>
                 </div>
@@ -172,12 +199,14 @@
       <!-- our new product section -->
       <section class="pt-10" >  
         <div class="text-center pb-6">
-           <h2 class="text-3xl font-extrabold ">Our New Products</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, doloremque.</p> 
+          <hr>
+           <h2 class="text-3xl font-extrabold pt-2">Our New Products</h2>
+        <p class="pt-2 pb-2">Hurry up! New Collections arrival.Check this out</p> 
+        <hr>
         </div>
-                                                                                                                                                                                                                                                                                                                                                                 
+                                                 
         <!-- 1st row -->
-        <div class="flex justify-between pb-6 ">
+        <div class="flex justify-between pb-6 pt-10 max-sm:flex-col ">
             <div class="card card-side bg-base-100 shadow-xl">
             <figure><img src="Images/5.png" alt="Movie"/></figure>
             <div class="card-body">
@@ -190,10 +219,10 @@
                 <p>200</p>
               </div>
            <h2 class="card-title">World Cup Flags Football</h2>
-       <p>Click the button to watch on Jetflix app..</p>
+       <p>click to know More!</p>
        <div class="flex  ">
          <p class="text-error">Price-$22.00</p>
-         <div class="flex">
+         <div class="flex space-x-32">
           <img src="Images/trolly.png" alt="">
           <p>Delivery Fee-Free</p>
          </div>
@@ -216,10 +245,10 @@
                 <p>200</p>
               </div>
            <h2 class="card-title">World Cup Flags Football</h2>
-       <p>Click the button to watch on Jetflix app.</p>
+       <p>click to know More!</p>
         <div class="flex  ">
          <p class="text-error">Price-$22.00</p>
-         <div class="flex">
+         <div class="flex space-x-32">
           <img src="Images/trolly.png" alt="">
           <p>Delivery Fee-Free</p>
          </div>
@@ -231,7 +260,7 @@
       </div>
     </div>
         <!-- 2nd row -->
-        <div class="flex justify-between pb-6">
+        <div class="flex justify-between pb-6 max-sm:flex-col ">
             <div class="card card-side bg-base-100 shadow-xl">
             <figure><img src="Images/7.png" alt="Movie"/></figure>
             <div class="card-body">
@@ -244,10 +273,10 @@
                 <p>200</p>
               </div>
            <h2 class="card-title">Cap For Hockeys</h2>
-       <p>Click the button to watch on Jetflix app.</p>
+       <p>click to know More!</p>
         <div class="flex  ">
          <p class="text-error">Price-$22.00</p>
-         <div class="flex">
+         <div class="flex space-x-32">
           <img src="Images/trolly.png" alt="">
           <p>Delivery Fee-Free</p>
          </div>
@@ -269,10 +298,10 @@
                 <p>200</p>
               </div>
            <h2 class="card-title">World Cup Flags Football</h2>
-       <p>Click the button to watch on Jetflix app.</p>
+       <p>click to know More!</p>
         <div class="flex  ">
          <p class="text-error">Price-$22.00</p>
-         <div class="flex">
+         <div class="flex space-x-32">
           <img src="Images/trolly.png" alt="">
           <p>Delivery Fee-Free</p>
          </div>
@@ -284,7 +313,7 @@
       </div>
     </div>
         <!-- 3rd row -->
-        <div class="flex justify-between">
+        <div class="flex justify-between max-sm:flex-col">
             <div class="card card-side bg-base-100 shadow-xl">
             <figure><img src="Images/9.png" alt="Movie"/></figure>
             <div class="card-body">
@@ -297,10 +326,10 @@
                 <p>200</p>
               </div>
            <h2 class="card-title">World Cup Flags Football </h2>
-       <p>Click the button to watch on Jetflix app.</p>
+       <p>click to know More!</p>
         <div class="flex  ">
          <p class="text-error">Price-$22.00</p>
-         <div class="flex">
+         <div class="flex space-x-32">
           <img src="Images/trolly.png" alt="">
           <p>Delivery Fee-Free</p>
          </div>
@@ -322,10 +351,10 @@
                 <p>200</p>
               </div>
            <h2 class="card-title">World Cup Flags Football</h2>
-       <p>Click the button to watch on Jetflix app.</p>
+       <p>Click to know more about it</p>
         <div class="flex  ">
          <p class="text-error">Price-$22.00</p>
-         <div class="flex">
+         <div class="flex space-x-32">
           <img src="Images/trolly.png" alt="">
           <p>Delivery Fee-Free</p>
          </div>
@@ -336,12 +365,91 @@
       </div>
       </div>
     </div>
+      </section>
 
+      <!-- clients Question -->
+      <section>
+        <div class="text-center pt-20 pb-20 max-sm:pl-10">
+          <hr>
+          <h1 class="text-3xl font-extrabold pt-2   ">Clients Question</h1>
+          <p class="pt-2 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, expedita.</p>
+          <hr>
+        </div>
+    <!-- question part -->
+        <div class="flex w-auto h-auto rounded-lg  max-sm:flex-col  ">
+          <div class=" max-sm:pb-10 pl-10">
+            <img src="Images/11.png" alt="">
+          </div>
+          
+        <div class=" pl-10 space-y-3.5">
+
+          <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" checked="checked" /> 
+          <div class="collapse-title text-xl font-medium">
+            Our Equipments
+          </div>
+          <div class="collapse-content"> 
+            <p>73 series:Top Quality,Dual Function,Plate Loaded,Multistation</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Hockey Training
+          </div>
+          <div class="collapse-content"> 
+            <p>Trainnig on going!</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Private Lessons
+          </div>
+          <div class="collapse-content"> 
+            <p>Gave more private lessons</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            SKI touring
+          </div>
+          <div class="collapse-content"> 
+            <p> typically done off-piste and outside of ski resorts</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Booking
+          </div>
+          <div class="collapse-content"> 
+            <p>yes,we confirmed our prebooking shcedules</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Pricings
+          </div>
+          <div class="collapse-content"> 
+            <p>prices contiously increasing</p>
+          </div>
+        </div>
+
+        </div>
+        </div>
 
       </section>
 
-      <!-- Get u=in touch -->
 
+      <!-- Get u=in touch -->
       <section >
        <div class="space-y-2 pt-10 pb-10 text-center">
          <hr>
@@ -352,20 +460,20 @@
 
 
        <!-- coloumns -->
-        <div class="flex ">
+        <div class="flex max-sm:flex-col">
           <!-- contact -->
        <div class="flex-col space-y-4   ">
-        <div class="bg-lime-100 w-96 h-72 rounded-2xl pl-10 pt-10">
+        <div class="bg-lime-100 w-96 h-72 rounded-2xl pl-10 pt-10 max-sm:w-72 ">
         <img src="Images/Group 1171275317.png" alt="">
         <p class="pt-10">Phone Number</p>
         <h3>+880 178 569 7489</h3>
        </div>
-       <div class="bg-amber-100  w-96 h-72 rounded-2xl pl-10 pt-10 ">
+       <div class="bg-amber-100  w-96 h-72 rounded-2xl pl-10 pt-10 max-sm:w-72 ">
         <img src="Images/Group 1171275318.png " alt="">
         <p class="pt-10">Email</p>
         <h3>hockey2024@gmail.com</h3>
        </div>
-       <div class="bg-cyan-100  w-96 h-72 rounded-2xl pl-10 pt-10 ">
+       <div class="bg-cyan-100  w-96 h-72 rounded-2xl pl-10 pt-10 max-sm:w-72 ">
         <img src="Images/Group 1171275321.png" alt="">
         <p class="pt-10">Location</p>
         <h3>152/2 Dhabnondi,Dhaka</h3>
@@ -375,7 +483,7 @@
        <!-- form  -->
        <div class="pl-10 ">
 
-        <div class="flex justify-between">
+        <div class="flex justify-between max-sm:flex-col">
           <div >
            <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Your Name</label>
 
@@ -388,7 +496,7 @@
         </div>
         </div>
 
-        <div class="flex justify-between">
+        <div class="flex justify-between max-sm:flex-col">
           <div >
            <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Subject</label>
 
@@ -418,44 +526,69 @@
       </section>
 
 
+    
+      <!-- socail media -->
+      <section class=" pt-20 ">
+        <div class="bg-gray-100 h-36 text-center pt-10 ">
+        <h1>Social Media</h1>
+        <div class="flex justify-center">
+           <img class="pt-4" src="Images/Social.png" alt="">
+        </div>
+       
+        </div>
+      </section>
 
     </main>
 
     
-    <footer class="footer p-10  bg-neutral text-neutral-content mt-8 ">
-      <div class="   space-y-1">
-        <h2 class="text-lg font-extrabold  text-white ">Get In Touch</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, exercitationem.</p>
-        <div class="flex item-center space-x-2"><img src="Images/email.png" alt="">
-          <p>hockey2024@gmail.com</p>
-        </div>
-        <div class="flex item-center space-x-2"><img src="Images/call.png" alt="">
-          <p>+880 170 987 4589</p>
-        </div>
-      </div>
-  <nav class="pt-5">
-    <header class="footer-title">Services</header> 
-    <a class="link link-hover">Branding</a>
-    <a class="link link-hover">Design</a>
+<footer class="footer p-10 bg-base-200 text-base-content">
+  <div class="pl-20 ">
+    <div class="space-y-3">
+    <h2>Get In Touch</h2>
+    <p>158,axz,Dhamondi,Dhaka</p>
+    <div class="flex">
+      <img src="Images/email.png" alt="">
+      <p>hockey@gmail.com</p>
+    </div>
+    <div class="flex">
+      <img src="Images/call.png" alt="">
+      <p>+880 142 138 0157</p>
+    </div>
+  </div> 
+  </div>
+  
+<div class="ml-10 mr-10 lg:flex gap-16 lg:text-left  max-sm:grid flex-wrap grid-cols-2 text-center max-sm:gap-28 ">
+  <nav class="max-sm:leading-noral grid gap-2" style="font-size:0.6rem;">
+     <header class="footer-title">Company</header> 
+    <a class="link link-hover">About Us</a>
+    <a class="link link-hover">leadership</a>
     <a class="link link-hover">Marketing</a>
-    <a class="link link-hover">Advertisement</a>
+    <a class="link link-hover">News articles</a>
+    <a class="link link-hover">legal Notice</a>
   </nav> 
-  <nav class="pt-5">
-    <header class="footer-title">Company</header> 
-    <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
-  </nav> 
-  <nav class="pt-5">
+  <nav class="leading-normal grid gap-2" style="font-size:0.6rem;">
     <header class="footer-title">Support</header> 
     <a class="link link-hover">Help Center</a>
+    <a class="link link-hover">Contact</a>
     <a class="link link-hover">FAQ</a>
-    <a class="link link-hover">Privacy policy</a>
-    <a class="link link-hover">Contact Us</a>
+    <a class="link link-hover">Ticket Support</a>
+  </nav> 
+  <div class="max-sm:w-64 flex justify-center items-center max-sm:mt-1">
+    <div>
+        <nav class="leading-normal grid gap-2 max-sm:" style="font-size:0.6rem;">
+    <header class="footer-title">Serices</header> 
+    <a class="link link-hover">Academy</a>
+    <a class="link link-hover">Group Lessons</a>
+    <a class="link link-hover">Private lessons</a>
+    <a class="link link-hover">Hockeys for Kids</a>
+    <a class="link link-hover">Hockeys for adults</a>
   </nav>
-</footer>
+    </div>
+  </div>
 
+</div>
+ 
+</footer>
     
 
   </body>
